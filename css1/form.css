@@ -1,0 +1,98 @@
+/* Formulário Padrão CSS*/
+#form { 
+	width:100%; margin-top:10px; border:#F5F5F5 solid 1px; 
+  }
+#form h1 { 
+	clear:both;
+  }
+#formlogin { 
+	width:240px; margin-top:10px; border:#CCCCCC solid 1px; margin-left:auto; margin-right:auto; 
+  }
+#formlogin h1 { 
+	clear:both;
+  }
+#formtrsenha { 
+	width:260px; margin-top:10px; border:#CCCCCC solid 1px; margin-left:auto; margin-right:auto; 
+  }
+#formtrsenha h1 { 
+	clear:both;
+  }  
+.gr { width:585px; }
+.md { width:150px; }
+.pq { width:60px; }
+.text_area {clear:both; }
+
+#pd_padrao {
+	margin-top:10px;
+	clear:both;
+	}
+h3 { 
+	clear:both;
+	margin:5px;
+	font-size:14px;
+	color:#999999;
+	padding:5px;
+	margin:5px;
+	margin-left:10px; /*importante */ 
+	margin-bottom:10px;
+	border-bottom:#CCCCCC solid 1px;
+		}  
+
+label { 
+	display:block;
+	width:280px;
+	float:left;
+	padding-left:15px;
+	padding-right:10px;
+	padding-bottom:10px;
+	color:#003366;
+	position:relative; 
+	
+	 }
+label input, select, textarea{
+	width:100%;
+	height:15px;
+	background:#FFFFFF url(../img/bg_input.jpg) ;
+	border:#CCCCCC solid 1px;;
+	color:#333333;
+	padding:5px;
+}
+label input:hover { 
+	background:#F8f8f8;
+}
+label select {
+background:#FFFFFF;
+height:27px;
+* height:28px; /* Hack Internet Explrore 7*/
+ }
+
+.textarea {
+width:750px;
+height:100px;
+padding:0px;
+ }
+
+label span {
+	font:10px;
+	color:gray;
+	position:absolute;
+	right:10px;
+}
+
+.file { width:90%; }
+
+#btns { clear:both; height:50px; padding:5px;   }
+#btns input { float:right; padding:7px; cursor:pointer; margin-left:5px; background:#EDEDED; border:#999999 solid 1px;}
+#btns input:hover { background:#0066CC; color:#FFFFFF}
+
+
+
+/* Padrão de Erro CSS */
+
+input.error,textarea.error{ border:1px solid #f00;  } 
+label.error,option.error{ color:#f00; position:relative; width:150px; height:10px; padding:0px; margin-top:-42px; margin-left:100px;   } 
+
+
+#form li { min-height:30px; float:left; padding:10px; border:#EDEDED solid 1px;}
+#form li input { height:30px;}
+#form li:hover {background:#F1F6FA}

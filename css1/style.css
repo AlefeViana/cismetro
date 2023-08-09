@@ -1,0 +1,163 @@
+/*
+	
+	Table Of Contents
+	
+	1. =GENERAL
+	2. =HEADER
+		2.1 =LOGO
+		2.2 =NAVIGATION
+	3. =CONTENT
+		3.1 =MAIN CONTENT
+	4. =FOOTER
+	5. =MISC
+		5.1 =ROUNDED CORNERS				
+
+-----------------------------------------------------------------------------------*/
+
+/* =GENERAL
+------------------ 114E7B*/
+
+#grid tr:hover{
+	background-color:#6FC;
+}
+
+.linha1{
+	background-color:#FFFFFF;
+}
+.linha2{
+	background-color:#D5F4F4;
+}
+
+/*About checkform --inicio*/
+input.error,textarea.error{ border:1px solid #f00; } 
+label.error,option.error{ color:#f00; } 
+		/*--fim*/
+
+body { 
+		background:#D5E9FF no-repeat top center;
+	    color:#666666;
+	    font:normal 14px Arial, Helvetica, sans-serif; position:relative; 
+	 }
+
+/*a { color:#0000FF; }
+	a:hover { }*/
+
+a{
+  text-decoration: none; font-size: 14px; font-family: verdana,arial; color: #242858;
+}
+
+a:hover {
+  text-decoration: none; font-size: 14px; font-family: verdana,arial; color: #CA0308;
+}
+
+img{ border:none; }
+	
+/*table{ width:100%; margin-bottom:15px; line-height:24px; }
+th{ border-top:3px solid #970205; padding:7px 10px; color:#fff;  background-color:#CA0308; text-align:left; }
+/*td{ border-bottom:1px solid #f4f4f4; padding:10px; CA0308 }*/
+th{ padding:7px 10px; color:#fff;  background-color:#CA0308; text-align:center; }
+
+code{ display:block; margin-bottom:15px; padding:10px; border-left:5px solid #ddd; }
+
+blockquote{ display:block; margin:15px; padding-left:50px; background:#fff url(../imagens/blockquote-quotemark.gif) no-repeat top left; }
+blockquote p{ font-style:italic; font-family:Georgia,"Times New Roman",Times,serif; margin:0; height:1%; }
+
+/* align images + text */	
+
+.img-left{ float:left; margin:10px 15px 15px 5px; }		/* Add this to any image you want to left align  */
+.img-right{ float:right; margin:10px 5px 15px 15px; }	/* Add this to any image you want to right align */
+
+.text-right{ text-align:right; }
+.text-center{ text-align:center; }
+
+/* Clear Fix Hack - add  class="fixed"  to div's that have floated elements in them */
+
+.fixed:after{content:"."; display:block; height:0; clear:both; visibility:hidden;}
+	.fixed{display:block;}
+	/*  \*/
+	.fixed{min-height:1%;}
+	* html .fixed{height:1%;}
+
+
+/* =HEADER
+------------------ */
+
+#header { margin:30px auto 10px auto; width:100%; }
+
+	/* =LOGO
+	------------------*/
+	
+	.logo { padding:31px 0 20px 20px; margin:0; float:left; color:#FFFFFF; }
+		.logo a{}
+		
+	/* =NAVIGATION
+	------------------*/
+	
+	.nav { padding:7px 0 0 0; margin:50px 20px 0 0; float:right; }
+/*	.nav ul { padding:0; margin:0; list-style:none; border:0;}
+	.nav ul li { float:left; margin:0; padding:0 2px 0 0; border:0;}
+	.nav ul li a { float:left; margin:0; padding:11px; color:#fff; font-size: 15px; text-decoration:none; outline:none; }
+	.nav ul li a:hover{ text-decoration:underline; }
+	.nav ul li a.active { text-decoration:underline; }
+*/
+	
+/* =CONTENT 
+-------------------*/
+
+#content { width:100%;  background-color:#FFF; padding:0px 30px; }
+
+	#content h2 { margin:0; padding:10px 5px; font-size: 30px; color:#424a55; }
+	#content h3 { margin:0; padding:15px 5px; font-size:18px; }
+	#content h4 { margin:0; padding:15px 5px; font-size:16px; font-weight:bold; }
+	#content ul { margin:0 40px 0 0; padding:0 10px 15px 20px; list-style:inside; } 
+	#content li { margin:0; padding:0;} 
+	#content ul li ul{ padding-bottom: 0px; }
+	#content p, #content li { line-height:24px; }
+	#content p { padding:5px; margin:0;}
+
+
+	/* =MAIN CONTENT
+	------------------*/
+	
+	#maincontent { float:left; width:840px; padding:0 0 30px 0; margin:0; overflow: auto;}
+		#maincontent h2 { border-bottom:3px solid #e3e3e3; margin-bottom:25px; }
+
+/* =FOOTER 
+-------------------*/
+
+#footer { background: url(../imagens/bg_footer.gif); padding:0; height:58px; margin:0 auto; padding:10px 40px; width:820px; }
+
+	#footer p { font-size: 12px;; color:#bcbec0;}
+	#footer a { color:#bcbec0; text-decoration:underline; font:"Courier New", Courier, monospace; font-size:12px;}
+	.copyright{ float:left;}
+	.credits{ float:right;}
+		
+/* =MISC
+-------------------*/
+
+	/* =ROUNDED CORNERS
+	-------------------*/
+	#round_top{ width:900px; height:20px; background:url(../imagens/round-top.gif) no-repeat top center; margin:0 auto; }
+	#round_bottom{ width:900px; height:20px; background:url(../imagens/round-bottom.gif) no-repeat top center; margin:0 auto; }
+	
+	
+	/* =CONTACT FORM
+	-------------------*/
+/*
+	form { margin:0; padding:5px 10px;}
+
+	form ol { margin:0; padding:0; list-style:none;}
+	form li { margin:0; padding:0; background:none; border:none; display:block;}
+	form li.buttons { margin:5px 0 5px 110px;}
+	form label { margin:2px 10px 2px 0; width:170px; display:block; padding:3px 0;
+				 text-transform:capitalize; float:left; text-align:right;}
+	form label span { color:#2c2c2c;}
+	form input.text { width:320px; border:1px solid #dcdcdc; margin:5px 0; padding:5px; height:16px; background:#FFF; float:left;}
+	form textarea { width:320px; border:1px solid #dcdcdc; margin:5px 0; padding:5px; background:#FFF; float:left;}*/
+/*
+#frms{
+	border: 2px #000 solid;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+}*/

@@ -1,0 +1,123 @@
+ /* Estrutura do Sitema */
+ * {
+ 	 font-family:"Arial Narrow", Helvetica, sans-serif; 
+	 font-size:13px; 
+	 color:#333333;
+	 padding:0px;
+	 margin:0px;
+	 list-style:none; }
+	 
+	 
+ a img { border:none}
+ h1 { background:#F1F6FA; padding:10px; font-weight:normal; font-size:15px; margin-bottom:20px; }
+ #form h1 {  background:#F1F6FA; padding:3px; }
+ h1 span { float:right; margin-right:5px; }
+ a { text-decoration:none} 
+ a:hover { text-decoration:underline} 
+	 
+ h2 { font-size:20px; color:#09F; border-bottom:#EBF7FF solid 2px; margin-bottom:20px;}	
+	
+	
+ body { background: #EBF7FF url(../img/bg_fundo_top.jpg) repeat-x }
+ #geral {
+ 		  background:#FFFFFF; 
+		  margin:0 auto 0px; 
+		  width:970px;
+		  
+		  }
+  #topo {}
+  /*#menu { background:#4473CA ; height:42px; border:#0066CC solid 2px; }*/
+  #menu {   }
+  #meio { clear:both; width:950px;  margin:0 auto 0px;  }  
+  
+  #cont { width:970px; background:#FFFFFF; float:left; border-bottom:#FFFFFF solid 20px; padding:5px; min-height:700px; }	
+  #rodape {  background:#FFFFFF scroll 1px; min-height:100px; clear:both; }
+ 
+ /****************************************************/
+ 
+ 
+/* Padrão de Tabela */
+	#table { width:100%  }
+
+	#table td { background:#FFFFFF;  padding-left:4px; font-size:13px; border-bottom:#DFEAF3 solid 1px; padding:2px;   }
+	#table tr:hover td { background:#F1F6FA;}	
+	#table th { background:#ECF2F9;  padding:5px; }
+	
+/* Padrão Paginação */
+	#paginacao {height:40px; width:950px; clear:both; margin:0 auto 0px; margin-top:20px;  font-size:11px; text-align:center;   background:#f5f5f5; padding:5px; 
+	border-radius:5px; }
+	#paginacao a { float:left; padding:8px;  font-size:11px; text-align:center;  }
+	#paginacao span { float:left; padding:8px;  font-size:11px; color:#0066FF; text-align:center;  background:#0066FF; border-radius:5px;  color:#ffffff; }
+	#paginacao  a:hover { color:#0066FF;  text-align:center;  background:#0066FF; border-radius:5px;  color:#ffffff; }
+	
+/* Padrões de Mensagem */
+
+	#alert { padding:10px;  color:#F00}
+	#msg_excluir { padding:10px; border:#FF0000 solid 2px; color:#FF0000}
+	#msg_conf { padding:10px; border:#00CC00 solid 2px; color:#00CC00}	
+	
+	.reg_excluido{
+		background:#F00; color:#FFF;
+	}
+	
+/* Painel Pessoa */
+	#pnl_pessoa  { margin-bottom:5px; border:#DFEAF3 solid 1px; padding:10px; height:140px; clear:both  }
+	#pnl_pessoa img {  float:left; margin-right:20px; border:#DFEAF3 solid 1px; }
+	#pnl_pessoa img:hover {border:#0066CC solid 1px;}
+	#pnl_pessoa h1 {  font-size:15px; font-weight:bold; color:#000066; background:#FFFFFF; }
+	#pnl_pessoa li  { line-height:25px; border-bottom:#EDED solid 1px;}
+
+	
+	
+	
+	
+/* Painel de Busca */
+#res_pesq  { border:#CCCCCC solid 1px; padding:10px; }
+#res_pesq h1  { background:#FFF; color:#03C;  }
+#res_pesq h1 span  { float:right;}
+
+
+#l_molestia {}
+#l_molestia div#reg { border:#C5C5C5 solid 1px; margin-bottom:10px; padding:2px;}
+
+
+/* Relátorios */
+
+#rel li { line-height:15px;  padding:10px; border-bottom:#EBF7FF solid 1px; clear:both}
+#rel li a:hover { text-decoration:underline; color:#06C;}
+
+/* Padrão de Lista do Tipo Box*/
+.list_obs_ext{
+	border:#FFB5B5 solid 1px; color:#F00; min-height:150px; margin-bottom:10px; overflow:auto;
+}
+.list_obs_txt{
+	float:left; padding:10px; width:80%; text-align:justify;
+}
+.list_obs_btn{
+	float: right; width:10%; border-left: #FFEAEA solid 1px; padding: 10px;
+}
+
+#lista2 { border: #CCCCCC solid 1px; padding:5px; margin-bottom:10px; }
+#lista2 h1 { color:#0066CC;  margin-bottom:0px; }
+#lista2 h1 span { float:right; }
+#lista2 li { border-bottom:#CCCCCC solid 1px; padding:5px; }
+
+
+
+	#lf  { clear:both; width:100%;   }
+	#lf div { border:#f5f5f5 solid 2px; float:left; margin:5px; width:90%;  padding:5px; min-height:50px; width:950px;    }
+	#lf div:hover { border:#A2DAFF solid 2px;	    }
+	
+	#lf div img#foto { float:left; margin-right:10px; border:#f5f5f5 solid 2px; height:100px; width:100px;    }
+	#lf div img#foto:hover { border:#FF9900 solid 2px;  }
+	#lf div li { line-height:20px;   }
+	.buscar {margin-left:5px; padding:8px; background:#FFFFFF; border:#c4c3c3 solid 1px; cursor:pointer;}
+	.buscar:hover { color:#000000; color:#0066CC; border:#0099FF solid 1px; }
+
+
+
+#res_busca { border:#f5f5f5 solid 5px; padding:2px; margin-bottom:5px; }
+
+
+.obrigatorio { color:#F00  }
+

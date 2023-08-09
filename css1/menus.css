@@ -1,0 +1,28 @@
+/*menu drop*/
+ul#nav-menu { margin:0; padding:0; list-style:none; }
+/*ul#nav-menu > li { margin-top:1px; background:#ededed; font-weight: bold; list-style:none;   }*/
+ul#nav-menu > li { margin-top:1px; background:#DCB9FF; font-weight: bold; list-style:none;   }
+ul#nav-menu > li > a { display:block; padding: 4px; color: #666666; text-decoration:none; outline:none; border:#c4c4c4 solid 1px; }
+/*ul#nav-menu > li > a:hover { background: #E5E5E5; }*/
+ul#nav-menu > li > a:hover { background: #DCB9FF; }
+ul#nav-menu > li > ul { margin: 0; padding:0; list-style:none; display:none; background:#FFFFFF; border:#c4c4c4 solid 1px; border-top:none;  }
+ul#nav-menu > li > ul > li{  list-style:none; padding: 5px; }
+/*ul#nav-menu > li > ul > li:hover{  background: #E5E5E5;}*/
+ul#nav-menu > li > ul > li:hover{  background: #DCB9FF;}
+ul#nav-menu > li > ul > li a { display:block; padding: 2px 0 0 4px; color:#333333; text-decoration:none; outline:none; }
+/*ul#nav-menu > li > ul > li a:hover { color:#003399; background: #E5E5E5; }*/
+ul#nav-menu > li > ul > li a:hover { color:#003399; background: #DCB9FF; }
+
+
+/*Menu aba */
+#menu_aba  {  width:100%; height:35px; margin-bottom:10px; border-bottom:#ECF2F9 solid 2px; clear:both;  } 
+#menu_aba a { float:left;  padding:10px;  margin-left:5px;  border:#ECF2F9 solid 2px;  border-bottom:none    } 
+#menu_aba a:hover {  text-decoration:underline; background:#ECF2F9; border:#C9E9FF solid 1px;   } 
+.marcado { background:#ECF2F9; border:#C9E9FF solid 1px; font-weight:bold }
+/*Menu Simples Lateral*/
+#menu_s  { background:#FFFFFF;  
+
+}
+#menu_s h1  { background:#ECF2F9;list-style:none; margin-bottom:0px; border:#DFEAF3 solid 1PX;  font-size:14px; padding:8px; font-weight:bold }
+#menu_s li  { background:#FFFFFF; list-style:none; padding:4px; padding-left:5px; border:#DFEAF3 solid 1PX; color:#CCCCCC   }
+#menu_s li:hover  { background:#EAF1F9 }

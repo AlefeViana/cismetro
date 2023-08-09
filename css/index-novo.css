@@ -1,0 +1,418 @@
+[v-cloak] {
+    display: none;
+}
+
+.saldoreal {
+    width: 16%;
+    height: 50px;
+    /* margin-right: 4%;  */
+    top: 0px;
+    /* position: sticky !important; */
+    float: right !important;
+}
+
+.saldost {
+    width: 96%;
+    color: #fff;
+    background-color: #ff8300 !important;
+    /* border-color: #007bff !important; */
+}
+
+
+.bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #eee;
+    border-left-width: .25rem;
+    border-radius: .25rem
+}
+
+.bd-callout h4 {
+    margin-top: 0;
+    margin-bottom: .25rem
+}
+
+.bd-callout p:last-child {
+    margin-bottom: 0
+}
+
+.bd-callout code {
+    border-radius: .25rem
+}
+
+.bd-callout+.bd-callout {
+    margin-top: -.25rem
+}
+
+.bd-callout-info {
+    border-left-color: #5bc0de
+}
+
+.bd-callout-info h4 {
+    color: #5bc0de
+}
+
+.bd-callout-warning {
+    border-left-color: #f0ad4e
+}
+
+.bd-callout-warning h4 {
+    color: #f0ad4e
+}
+
+.bd-callout-danger {
+    border-left-color: #d9534f
+}
+
+.bd-callout-danger h4 {
+    color: #d9534f
+}
+
+.slow .toggle-group {
+    transition: left 0.7s;
+    -webkit-transition: left 0.7s;
+}
+
+.fast .toggle-group {
+    transition: left 0.1s;
+    -webkit-transition: left 0.1s;
+}
+
+.quick .toggle-group {
+    transition: none;
+    -webkit-transition: none;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    font-size: 1rem;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+ul{
+    list-style-image: url('../img/seta.png');
+}
+
+p{
+    color: #FFF;
+    text-align: left;
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.333px;
+}
+
+.usuario{
+    color: #FFF;
+    text-align: left;
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.333px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px;
+    /* Vertically center the text there */
+    background-color: #f5f5f5;
+}
+
+#overlay {
+    position: fixed;
+    /* Sit on top of the page content */
+    display: none;
+    /* Hidden by default */
+    width: 100%;
+    /* Full width (cover the whole page) */
+    height: 100%;
+    /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Black background with opacity */
+    z-index: 2;
+    /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer;
+    /* Add a pointer on hover */
+}
+
+#overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.pesquisar {
+    padding-left: 2.8em;
+    background: #F7F6F6;
+    border-radius: 4px;
+    height: 40px;
+    width: 340px;
+    color: #D4D4D4;
+    border: 1px solid #D4D4D4;
+}
+
+.item{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 4px;
+    border: 1px solid #d4d4d4;
+    width: 80%;
+    text-align: center;
+}
+
+.item:hover{
+    background: #C3D8FC;
+    color: #315BA3;
+}
+
+.item:active a{
+    background: #315BA3;
+    color: #fff !important;
+    border-radius: 4px;
+}
+
+.item a{
+    color: #333;
+}
+
+.pesquisar::placeholder{
+    color: #D4D4D4;
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+#pesquisa {
+    background-image: url("data:image/svg+xml,%3Csvg width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21 21L19 19M10.5 20C11.7476 20 12.9829 19.7543 14.1355 19.2769C15.2881 18.7994 16.3354 18.0997 17.2175 17.2175C18.0997 16.3354 18.7994 15.2881 19.2769 14.1355C19.7543 12.9829 20 11.7476 20 10.5C20 9.25244 19.7543 8.0171 19.2769 6.86451C18.7994 5.71191 18.0997 4.66464 17.2175 3.78249C16.3354 2.90033 15.2881 2.20056 14.1355 1.72314C12.9829 1.24572 11.7476 1 10.5 1C7.98044 1 5.56408 2.00089 3.78249 3.78249C2.00089 5.56408 1 7.98044 1 10.5C1 13.0196 2.00089 15.4359 3.78249 17.2175C5.56408 18.9991 7.98044 20 10.5 20Z' stroke='%23D4D4D4' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position-x: 2%;
+    background-position-y: center;
+}
+
+.suporte{
+    background: #FF8300;
+    border-radius: 4px;
+    width: 110px;
+    height: 40px;
+    border: 1px solid #F48534;
+    color: #FFF;
+}
+
+.sp{
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #315BA3;
+}
+
+.sp a{
+    color: #315BA3;
+    text-decoration: none;
+}
+
+#suporte{
+    background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20.167 21.3587H16.8337L13.1253 23.8254C13.0002 23.9088 12.8547 23.9567 12.7045 23.9639C12.5543 23.9712 12.4049 23.9375 12.2723 23.8665C12.1397 23.7955 12.0289 23.6898 11.9516 23.5608C11.8744 23.4317 11.8336 23.2841 11.8337 23.1337V21.3587C9.33366 21.3587 7.66699 19.6921 7.66699 17.1921V12.1921C7.66699 9.69206 9.33366 8.02539 11.8337 8.02539H20.167C22.667 8.02539 24.3337 9.69206 24.3337 12.1921V17.1921C24.3337 19.6921 22.667 21.3587 20.167 21.3587Z' stroke='white' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M15.9995 15.4668V15.2918C15.9995 14.7251 16.3495 14.4251 16.6995 14.1835C17.0412 13.9501 17.3829 13.6501 17.3829 13.1001C17.3829 12.3335 16.7662 11.7168 15.9995 11.7168C15.2329 11.7168 14.6162 12.3335 14.6162 13.1001M15.9954 17.4585H16.0037' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position-x: 2%;
+    background-position-y: center;
+}
+
+.clima{
+    width: 79px;
+    height: 40px;
+    background: #476FB4;
+    border-radius: 4px;
+}
+
+#clima{
+    background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M16 22.5C17.7239 22.5 19.3772 21.8152 20.5962 20.5962C21.8152 19.3772 22.5 17.7239 22.5 16C22.5 14.2761 21.8152 12.6228 20.5962 11.4038C19.3772 10.1848 17.7239 9.5 16 9.5C14.2761 9.5 12.6228 10.1848 11.4038 11.4038C10.1848 12.6228 9.5 14.2761 9.5 16C9.5 17.7239 10.1848 19.3772 11.4038 20.5962C12.6228 21.8152 14.2761 22.5 16 22.5Z' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M23.14 23.14L23.01 23.01M23.01 8.99L23.14 8.86M8.86 23.14L8.99 23.01M16 6.08V6M16 26V25.92M6.08 16H6M26 16H25.92M8.99 8.99L8.86 8.86' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position-x: 2%;
+    background-position-y: center;
+}
+
+.data{
+    width: 104px;
+    height: 40px;
+    background: #476FB4;
+    border-radius: 4px;
+}
+
+#data{
+    background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 6V9M20 6V9M7.5 13.09H24.5M25 12.5V21C25 24 23.5 26 20 26H12C8.5 26 7 24 7 21V12.5C7 9.5 8.5 7.5 12 7.5H20C23.5 7.5 25 9.5 25 12.5Z' stroke='white' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M19.6949 17.7002H19.7039M19.6949 20.7002H19.7039M15.9949 17.7002H16.0049M15.9949 20.7002H16.0049M12.2939 17.7002H12.3039M12.2939 20.7002H12.3039' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position-x: 2%;
+    background-position-y: center;
+}
+
+.sa{
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #315BA3;
+}
+
+.sa a{
+    color: #315BA3;
+    text-decoration: none;
+}
+
+.sair{
+    width: 104px;
+    height: 40px;
+    background: #fff; 
+    line-height: 14px;
+    border-radius: 4px;
+    border: 1px solid #315BA3;
+}
+
+
+#sair{
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15.1 7.55999C14.79 3.95999 12.94 2.48999 8.89 2.48999H8.76C4.29 2.48999 2.5 4.27999 2.5 8.74999V15.27C2.5 19.74 4.29 21.53 8.76 21.53H8.89C12.91 21.53 14.76 20.08 15.09 16.54M22 12H9.12' stroke='%23315BA3' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M11.35 8.65002L7.99998 12L11.35 15.35' stroke='%23315BA3' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position-x: 20%;
+    background-position-y: center;
+}
+
+#agendamento{
+    background-image: url("../img/calendario.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5%;
+}
+
+#paciente{
+    background-image: url("../img/paciente.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5%;
+}
+
+#transporte{
+    background-image: url("../img/transporte.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5%;
+}
+
+#faturamento{
+    background-image: url("../img/faturamento.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5%;
+}
+
+#configuracao{
+    background-image: url("../img/configuracao.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5%;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.drop{
+    background: url("../img/seta.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 95%;
+}
+
+.user{
+    background: url("../img/img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #315BA3;
+    border-radius: 4px;
+    width: 344px;
+    height: 152px;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+
+
+@media (max-width: 992px){
+    #logo{
+        display: none;
+    }
+}
+
+@media (min-width: 1412px){
+    #logo1{
+        display: none;
+    }
+}
+
+@media (min-width: 768px){
+    #logoiconsorcio{
+        margin-right: 50px;
+    }
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body>.container {
+    padding: 60px 15px 0;
+}
+
+.footer>.container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+i {
+    font-size: 21px;
+    margin: 3px;
+}
+
+code {
+    font-size: 80%;
+}
+
+.select2-selection__rendered {
+    line-height: 31px !important;
+    width: 100%;
+}
+
+.select2-container .select2-selection--single {
+    height: 35px !important;
+    width: 100%;
+}
+
+.select2-selection__arrow {
+    height: 34px !important;
+    width: 100%;
+}

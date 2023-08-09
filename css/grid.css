@@ -1,0 +1,55 @@
+#grid	 {  border:#D5D5D5 solid 1px; min-height:390px; 
+ 
+}
+
+#grid h1 { background:#F1F6FA ; 
+padding:5px;
+margin-bottom:10px;
+border:# solid 1px;
+margin:5px;
+}
+#grid h1:hover { text-decoration:underline }
+
+#filtro { 
+clear:both; 
+ height:30px; padding:10px; border-bottom:#D5D5D5 solid 1px; 
+ 
+ 
+ } 
+
+
+#menu_grid { 
+clear:both; 
+height:40px;
+margin:5px;
+
+}
+#menu_grid a { float:left; 
+padding:10px;
+ border:#CCCCCC solid 1px;
+ margin:2px;
+ margin-bottom:0px;
+padding-left:25px;
+ }
+#menu_grid a:hover {background:#F5F5F5 }
+
+table {  width:100%} 
+table td { } 
+table tr th { padding:8px;  background:#F5F5F5;} 
+table th:hover { background:#F5F5F5;} 
+tr:nth-child(2n+1) {background-color:#EBEBEB;}
+tr:hover {background:#FFFFCC;}
+
+#paginacao { clear:both; background:#F5F5F5; height:32px; margin-top:20px; border-top:#CCC solid 1px;  }
+#paginacao div { float:left;  padding:5px; margin:2px; border:#CCC solid 1px;  }
+#paginacao div:hover {  border-top:#CCC solid 1px;
+ border-bottom:#CCC solid 1px;
+
+
+font-weight:bold; text-decoration:underline; background:#FFF }
+
+.form_busca { float:left; width:40%;  padding-left:26px; font-style:italic; 
+background:#FFF url(../img/icones_sistema/icon_lupa.gif) left no-repeat; 
+border:#CCC solid 1px; padding:3px;
+color:#666
+}

@@ -1,0 +1,235 @@
+/**{margin:0; padding:0;}
+body{background:#f4f4f4;}*/
+
+/*************** /
+.jScrollbar3 {
+	
+	position:fixed; 
+	width:170px; 
+	height: 80%; 
+	background-color:#FFF; 
+	top: 143px; 
+	border-top-right-radius: 10px;	
+	overflow:hidden;
+	padding:5px;	
+	
+	
+	/*
+	width:500px;
+	height:209px;
+	overflow:hidden;
+	position:relative;
+	background-color:#d6d6d6;
+	padding:10px* /
+}
+	.jScrollbar3 .jScrollbar_mask {
+		width:160px;
+		position:relative;
+		top:0;
+	}
+	.jScrollbar3 .jScrollbar_draggable {
+		/*float:left;* /
+		width:6px;
+		height:100%;
+		overflow:hidden;
+		background:none;
+		background-color:#CCC;
+		position:relative;
+	}
+	.jScrollbar3 .jScrollbar_draggable a.draggable {
+		position:relative;
+		background-color:#999;
+		display:block;
+		height:100px;
+		width:6px;
+		cursor:default;
+	}
+	
+/***************/
+
+
+.comecar{
+	text-decoration:none;
+	display:block;
+	padding:3px;
+	font:13px;
+	color:#333;
+}
+.comecar:hover{background:#ccc; text-decoration:none;}
+
+
+.contatos_teste{
+	position:fixed; 
+	width:200px; 
+	height: 80%; 
+	background-color:#FFF; 
+	top: 143px; 
+	border-top-right-radius: 10px;	
+	overflow-y:auto; 
+	overflow-x:hidden;
+	padding:5px;	
+
+}
+.titulo_contatos{
+background-color: #09F;
+padding: 10px;
+text-align: center;
+font-weight: bold;
+color: #fff;
+margin-bottom: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+.status_chat{
+	height: 10px;
+	width: 10px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	background-color: rgb(215, 215, 215);
+	float: left;
+	margin: 5px;
+	border: 1px solid rgb(118, 118, 118);
+}
+.status_chat_on{
+	height: 10px;
+	width: 10px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	background-color:  rgb(31, 215, 31);
+	float: left;
+	margin: 5px;
+	border: 1px solid rgb(20, 155, 20);
+}
+.status_chat_als{
+	height: 10px;
+	width: 10px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	background-color: rgb(253, 3, 3);
+	float: left;
+	margin: 5px;
+	border: 1px solid rgb(155, 20, 20);
+}
+
+/*div#contatos{
+	/*background:#fff;
+	position:fixed;
+	left:0;
+	top:143;
+    width:220px; 
+	height:100%;
+	overflow-y:auto;
+	overflow-x:hidden;
+	-webkit-border-top-right-radius: 10px; 
+    -moz-border-radius-topright: 10px; 
+    border-top-right-radius: 10px;* /
+	
+	position:fixed; 
+	width:170px; 
+	height: 80%; 
+	background-color:#FFF; 
+	top: 143px; 
+	border-top-right-radius: 10px;	
+	overflow-y:auto; 
+	overflow-x:hidden;
+	padding:5px;	
+}*/
+
+div#contatos ul{
+	list-style-type:none;
+	margin:0;
+	width:100%;
+}
+div#contatos ul li{
+	float:left;
+	display:block;
+	width:100%;
+	margin-bottom:1px;
+}
+div#contatos ul li a{
+	text-decoration:none;
+	display:block;
+	padding:3px;
+	font:13px;
+	color:#333;
+	margin-bottom: 2px;
+	background-color: #FCFCFC;
+}
+div#contatos ul li a:hover{background:rgba(233, 246, 255, 1);}
+
+
+div#janelas{
+	position:fixed;
+	bottom:0;
+	right:0;
+	width:85%;
+}
+
+div#janelas div.janela{
+	width:230px;
+	background:#09F;
+	margin-right:5px;
+	float:right;
+	margin-bottom:0;
+	border: 1px solid #EAEAEA;
+}
+div.janela div.topo{
+	float:left;
+	width:230px;
+	background:#09F;
+	height:25px;
+	cursor:pointer;
+}
+div.topo.fixar{position:absolute; bottom:0;}
+div.topo span{float:left; font:13px; color:#fff; margin:4px;}
+div.janela div.topo a#fechar{float:left; padding: 5px 6px; font:13px; color:#fff; float:right; text-decoration:none;}
+div.janela div.topo a#fechar:hover{background:#F90;}
+div.janela input[type=text]{
+	padding:9px; 
+	border:0;
+	outline:none;
+	background:#f4f4f4;
+	font:13px;
+	color:#333;
+	width: 212px;
+}
+div.mensagens{
+	float:left;
+	width:230px;
+	background:#fff;
+	height:200px;
+	border-bottom:1px solid #DADADA;
+}
+div.mensagens ul.listar{
+	list-style-type:none;
+	float:left;
+	width:230px;
+	background:#fff;
+	height:200px;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+div.mensagens ul.listar li{
+	float:left;
+	width:100%;
+	border-bottom:1px dotted #333;
+	padding-bottom:3px;
+}
+div.mensagens ul.listar li span{
+	font:13px;
+	color:#333;
+	float:left;
+	width:100%;
+	margin:3px;
+}
+div.mensagens ul.listar li p{
+	font:13px;
+	color:#333;
+	float:left;
+	width:100%;
+	margin-left:3px;
+}
