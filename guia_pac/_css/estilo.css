@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+body {
+  background: rgb(204, 204, 204);
+  font-family: 'Arial', Arial, sans-serif;
+}
+
+@page {
+  size: A4;
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+section {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.assinatura {
+  margin-top: 50px;
+}
+
+.atencao {
+  padding-top: 100px;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.espec {
+  padding-top: 10px;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+img {
+  padding-left: 30px;
+  float: left;
+}
+
+.signature,
+.title {
+  font-size: 10pt;
+  font-weight: bold;
+  float: left;
+  margin: 10px 10px;
+  border-top: 1px solid #000;
+  width: 219px;
+  text-align: center;
+}
+
+.signature-fisio {
+  font-size: 10pt;
+  font-weight: bold;
+  float: left;
+  margin-top: 24px;
+  margin-left: 13px;
+  border-top: 1px solid #000;
+  width: 335px;
+  text-align: center;
+}
+
+.declaracao {
+  text-align: justify;
+  padding-bottom: 40px;
+}
+
+.warning {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Arial', Arial, sans-serif;
+  font-size: 12pt;
+  color: #00629B;
+}
+
+h2 {
+  font-family: 'Arial', Arial, sans-serif;
+  font-size: 10pt;
+}
+
+@media print {
+
+  body,
+  page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+
+.header {
+  padding-top: 10px;
+  padding-right: 30px;
+  text-align: right;
+  border: 2px solid #ddd;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 80%;
+}
+
+img {
+  position: left;
+}
+
+table th {
+  background: url("_imagens/tecnico.png");
+  background-color: #00629B;
+  color: white;
+  text-align: center;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

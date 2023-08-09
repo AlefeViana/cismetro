@@ -1,0 +1,191 @@
+#graphics-app {
+  max-width: 1277px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.graphics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+
+.graphic {
+  position: relative;
+  max-width: 400px;
+  width: 95%;
+  margin: 10px 15px 20px;
+}
+
+.graphic > canvas {
+  height: 255px !important;
+}
+
+.graphic:nth-child(3),
+.graphic:first-child {
+  max-width: 800px;
+}
+
+.graphic:nth-child(3) > canvas {
+  /* altura do gráfico de linhas */
+  height: 290px !important;
+}
+
+.graphic form {
+  margin-bottom: 0px;
+}
+
+.main-filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.main-filter > div {
+  margin: 5px;
+  width: 80px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.main-filter > div:hover,
+.selected {
+  border-radius: 2px;
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.secondary-filter {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border: none;
+  background: none;
+  color: #757575;
+}
+
+.secondary-filter i {
+  font-size: 22px;
+}
+
+.secondary-filter:hover i {
+  color: var(--primary);
+  pointer-events: none;
+}
+
+.graphic-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  z-index: 100;
+  background: rgb(0, 0, 0, 0.6);
+
+  animation: show-graphic-modal 0.5s linear;
+}
+
+.graphic-modal .content {
+  max-width: 700px;
+  width: 90%;
+  background: #ffffff;
+  border-radius: 3px;
+  padding: 10px 15px;
+}
+
+.graphic-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@keyframes show-graphic-modal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.graphic-legend {
+  position: absolute;
+  left: 18px;
+  max-width: 450px;
+  width: 90%;
+}
+
+.graphic-legend:hover .menu-legend {
+  display: flex;
+}
+
+.graphic-legend:hover .action-legend {
+  text-decoration: underline;
+}
+
+.menu-legend {
+  display: none;
+  flex-wrap: wrap;
+
+  position: absolute;
+
+  max-height: 300px;
+  margin-top: -2px;
+  padding: 10px 15px;
+
+  background: #ffffff;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+  border-radius: 6px;
+
+  z-index: 3;
+
+  overflow-y: auto;
+
+  animation: show-graphic-modal 0.4s;
+}
+
+.menu-legend .menu-item {
+  display: flex;
+  justify-content: start;
+  flex: 1 0 45%;
+
+  margin-right: 15px;
+
+  font-size: 14px;
+  color: var(--gray);
+
+  cursor: pointer;
+}
+
+.menu-item > div {
+  min-width: 30px;
+  height: 13px;
+  margin-right: 8px;
+  margin-top: 5px;
+  border: 1px solid var(--gray);
+}
+
+.action-legend {
+  display: inline-block;
+
+  font-size: 14px;
+  color: var(--primary);
+
+  padding: 3px 10px;
+  border-radius: 6px;
+
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.legend-hidden {
+  text-decoration: line-through;
+}
