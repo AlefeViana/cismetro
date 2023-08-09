@@ -1,0 +1,44 @@
+.info, .sucesso, .alerta, .erro, .validation {
+border: 1px solid;
+margin: 10px 0px;
+padding:15px 10px 15px 50px;
+background-repeat: no-repeat;
+background-position: 10px center;
+margin-bottom:15px;
+margin-top:15px;
+
+}
+.info {
+color: #06F;
+background-color: #F0F9FD;
+background-image: url('../img/info.png');
+border-left:none;
+border-right:none;
+
+
+
+}
+.sucesso {
+color: #4F8A10;
+background-color: #F3FAE6;
+background-image:url('../img/alerta_sucesso.png');
+border-left:none;
+border-right:none;
+
+}
+.alerta {
+color:#FF6600;
+background-color: #FFF8E0;
+background-image: url('../img/alerta_icone.png');
+border-left:none;
+border-right:none;
+
+}
+.erro {
+color: #FF3300;
+background-color: #FFF7F7;
+background-image: url('../img/excluir_sucesso.png');
+border-left:none;
+border-right:none;
+
+}

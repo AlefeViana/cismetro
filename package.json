@@ -1,0 +1,25 @@
+{
+  "name": "iconsorcio2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SitconTI/Iconsorcio2.0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SitconTI/Iconsorcio2.0/issues"
+  },
+  "homepage": "https://github.com/SitconTI/Iconsorcio2.0#readme",
+  "dependencies": {
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.23",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1"
+  }
+}
