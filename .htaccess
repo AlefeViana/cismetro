@@ -1,0 +1,7 @@
+DirectoryIndex index.html
+ErrorDocument 404 https://iconsorciosaude18.com.br/cismetro
+ErrorDocument 403 https://iconsorciosaude18.com.br/cismetro
+<IfModule mod_expires.c>
+RewriteEngine On
+RewriteRule ^credenciamento/?$ login_credenciando.php [NC,L]
+</IfModule>
